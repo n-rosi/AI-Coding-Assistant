@@ -1,9 +1,9 @@
-from llama_index.tools import FunctionTool
+from llama_index.core.tools import FunctionTool
 import os
 
 note_file = os.path.join("data", "notes.txt")
 
-
+# user-custom function
 def save_note(note):
     if not os.path.exists(note_file):
         open(note_file, "w")
@@ -13,7 +13,7 @@ def save_note(note):
 
     return "note saved"
 
-
+# engine allowing the model to execute the code
 note_engine = FunctionTool.from_defaults(
     fn=save_note,
     name="note_saver",

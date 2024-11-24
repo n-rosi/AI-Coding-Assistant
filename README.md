@@ -17,8 +17,11 @@ Additionally, at any point in time it is possible to ask the agent to take a not
 
 ## LLAMA
 
-The model can access every kind of data surce thanks to the package `llama-index` provided from LLAMA, which allows to ingest, index and quity structures, unstructured and semi-structured data.
+The model can access every kind of data surce thanks to the package `llama-index` provided from LLAMA, which allows to ingest, index and query structured, unstructured and semi-structured data.
+
+`llama-index` also provide with wrappers to allow the LLM model to execute user-custom python functions.
 
 
 Source virtual environment in Linux: ` source ai/bin/activate`
+Package to install: `llama-index`, `llama-index-experimental`,`pandas`,`pypdf`, `python-dotenv`
 
