@@ -1,3 +1,6 @@
 # folders
 ai/             # python venv
 data/           # data
+
+# files
+.env
