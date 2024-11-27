@@ -1,6 +1,10 @@
 # AI-Coding-Assistant
 
-Resource: [YouTube tutorial](https://www.youtube.com/watch?v=ul0QsodYct4&t=148s)
+The code provided in this repository was written following the tutorial here provided: [YouTube tutorial](https://www.youtube.com/watch?v=ul0QsodYct4&t=148s)
+
+Differently from the tutrial, it makes use of Mistal AI free model `open-mixtral-8x22b`, available under Apache2.0 license (see LICENSE).
+
+The utilized dataset can be downloaded at: [Music Dataset: 1950 to 2019](https://www.kaggle.com/datasets/saurabhshahane/music-dataset-1950-to-2019) 
 
 ## Introduction
 
