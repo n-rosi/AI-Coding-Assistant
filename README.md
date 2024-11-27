@@ -25,7 +25,16 @@ The model can access every kind of data surce thanks to the package `llama-index
 
 `llama-index` also provide with wrappers to allow the LLM model to execute user-custom python functions.
 
+## simple use example
 
-Source virtual environment in Linux: ` source ai/bin/activate`
-Package to install: `llama-index`, `llama-index-experimental`,`pandas`,`pypdf`, `python-dotenv`
+Run the code from your python or conda environment with:
+
+`python main.py`
+
+You will able to interact with the agent via the following prompt:
+
+`Enter a prompt (q to quit):`
+
+You can ask a general question or give instruction about writing a particular note in the file `data/note.txt`. 
+
 
